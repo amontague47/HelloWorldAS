@@ -26,6 +26,7 @@ public class DatabaseAdapter {
         dbHelper.close();
     }
 
+    //changes here
     private Cursor getAllEntries() {
         String[] columns = new String[2];
         columns[0] = "name";
